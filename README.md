@@ -12,11 +12,11 @@ This is a basic Minesweeper game implemented in Rust using the sdl2 library.
 ### How to Play (Custom Game):
 
 1. Find the executable using the terminal.
-2. Run the game with the following command: "executable_name grid_size mines", where:
-   - `executable_name` is the name of your executable.
+2. Run the game with the following command: "executable_path grid_size mines", where:
+   - `executable_path` is the name of your executable.
    - `grid_size` is the length of one side of the square grid.
    - `mines` is the number of mines on the map.
-   - Example: "minesweeper 4 2"
+   - Example: "Users/me/Desktop/minesweeper 4 2"
 
 ### Color Explanations:
 
