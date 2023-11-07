@@ -5,6 +5,7 @@ use super::{
 
 use rand::Rng;
 
+// TODO: make sure a unopened tile is chosen
 pub fn random_decision(grid: &Grid) -> Decision {
     let mut rng = rand::thread_rng();
 
