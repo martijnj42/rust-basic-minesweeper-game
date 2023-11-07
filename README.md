@@ -1,13 +1,15 @@
 # rust-basic-minesweeper-game
 This is a basic Minesweeper game implemented in Rust using the sdl2 library.
 
-## How to Play (Standard Game):
+## Player guide:
+
+### How to Play (Standard Game):
 
 1. Run the executable.
 2. Click on the squares you want to open.
 3. Press the "F" key to toggle between actions: open and flag while clicking a square.
 
-## How to Play (Custom Game):
+### How to Play (Custom Game):
 
 1. Find the executable using the terminal.
 2. Run the game with the following command: "executable_name grid_size mines", where:
@@ -16,7 +18,7 @@ This is a basic Minesweeper game implemented in Rust using the sdl2 library.
    - `mines` is the number of mines on the map.
    - Example: "minesweeper 4 2"
 
-## Color Explanations:
+### Color Explanations:
 
 - Unopened squares are Grey.
 - Flagged squares are Cyan.
@@ -32,10 +34,9 @@ This is a basic Minesweeper game implemented in Rust using the sdl2 library.
   - 8 = Light Green
 - Revealed Mine squares are Black.
 
-## Extra Options:
+### Extra Options:
 
 - Press the "H" key to let the computer help you. If a good option is available, it will take it; otherwise, it opens a random square.
 - Press the "C" key to toggle between normal and developer mode.
 
 Have fun playing Minesweeper!
-
